@@ -8,20 +8,20 @@ import './header.css'
 
 function Header() {
   return (
-    <header style={{ backgroundImage: `url(${background})`, backgroundRepeat  : 'no-repeat', backgroundSize: 'contain'}} className='header'>
+    <header style={{ backgroundImage: `url(${background})`, backgroundRepeat  : 'no-repeat', backgroundSize: 'contain', width: '100vw'}} className='header'>
         <Navbar/>
         <div className="header__container">
-          <div className="header__btn-group">
-            <div className="btn__item">
-            <Btn className='text' theme ='brown'>Claim free NFT</Btn>
-            </div>
-            <div className="btn__item">
-            <Btn className='text' theme ='mint'>Mint</Btn>
-            </div>
-            <div className="btn__item">
-            <Btn className='text' theme ='purple'>Read Whitepaper</Btn>
-            </div>
+        <div className="header__btn-group">
+          <div className="btn__item">
+          <Btn className='text' theme ='brown'>Claim free NFT</Btn>
           </div>
+          <div className="btn__item">
+          <Btn className='text' theme ='mint'>Mint</Btn>
+          </div>
+          <div className="btn__item">
+          <Btn className='text' theme ='purple'>Read Whitepaper</Btn>
+          </div>
+        </div>
         </div>
     </header>
   )

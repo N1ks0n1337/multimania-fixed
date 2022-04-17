@@ -23,10 +23,12 @@ export const CollectiblesItems = styled.div`
 
 export const CollectiblesItemImg = styled.div`
     
-
 `
 
 export const CollectiblesImg = styled.img`
     margin-bottom: 20px ;
-    margin-left: 20px;
+    @media screen and (max-width:1230px){
+        margin-left: 20px;
+    }
+    
 `
