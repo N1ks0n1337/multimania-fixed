@@ -76,10 +76,10 @@ const Button = styled.button`
         margin-right: 15px;
     }
     @media screen and (max-width: 974px){
-        font-size: 14px;
+        font-size: 10px;
     }
     @media screen and (max-width: 605px){
-        font-size: 10px;
+        font-size: 8px;
     }
 `   
 Button.defaultProps = {
