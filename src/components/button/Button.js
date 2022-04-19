@@ -52,6 +52,16 @@ const theme = {
         boxShadowHover: '3px 0px 0px 0px #5B2080, -3px 0px 0px 0px #C23AE4, 0px  3px 0px 0px #5B2080, 0px -3px 0px 0px #C23AE4;',
         boxShadowFocus: '3px 0px 0px 0px #C23AE4, -3px 0px 0px 0px #5B2080, 0px  3px 0px 0px #C23AE4, 0px -3px 0px 0px #5B2080;',
         margin: '0 20px 0 0'
+    },
+    pinkLearn: {
+        default: '#A2275C',
+        hover: '#8227A2',
+        focus: '#8227A2',
+        padding: '10px 98px;',
+        boxShadowDefault: '4px 0px 0px 0px #802049, -4px 0px 0px 0px #E43A84, 0px  4px 0px 0px #802049, 0px -4px 0px 0px #E43A84;',
+        boxShadowHover: '4px 0px 0px 0px #5B2080, -4px 0px 0px 0px #C23AE4, 0px  4px 0px 0px #5B2080, 0px -4px 0px 0px #C23AE4;',
+        boxShadowFocus: '4px 0px 0px 0px #C23AE4, -4px 0px 0px 0px #5B2080, 0px  4px 0px 0px #C23AE4, 0px -4px 0px 0px #5B2080;',
+        margin: '0px'
     }
 }
 

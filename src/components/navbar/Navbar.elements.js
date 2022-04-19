@@ -3,7 +3,6 @@ export const Container = styled.div`
     width: 100%;
     height: 82px;
     padding-top: 20px;
-
 `
 
 
@@ -32,6 +31,7 @@ export const Menu = styled.ul`
     @media screen and (max-width: 765px){
         background-color: #000B2C;
         position: fixed;
+        opacity: 1;
         top: 0;
         left: ${({open}) => (open ? "0" : "-100%")};
         width: 100%;

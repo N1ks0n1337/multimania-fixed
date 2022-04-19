@@ -1,9 +1,11 @@
 import styled from "styled-components"
 import backgroundOut from './backgroundOut.png'
+import cityBg from './cityBg.png'
 
 export const Container = styled.div`
     width: 100%;
-    background-color: #1B1432;
+    background: rgb(27,20,50);
+background: linear-gradient(0deg, rgba(27,20,50,1) 76%, rgba(4,29,45,1) 100%);
     overflow: hidden;
 `
 export const BackgroundImg = styled.div`
@@ -12,9 +14,19 @@ export const BackgroundImg = styled.div`
         background-repeat: no-repeat;
         background-position: 0 -200px;
         background-clip: text;
-        @media screen and (max-width: 1024px){
-            background-position: 0 350px; 
+        @media screen and (max-width: 1199px){
+            background-position: 0px 0px; 
         }
+        @media screen and (max-width: 1199px){
+            background-position: 0px 0px; 
+        }
+`
+export const BackgroundImgCity = styled.div`
+    background-image: url('${cityBg}');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding-bottom: 427px;
 `
 export const Wrapper = styled.div`
     width: 100%;
@@ -25,6 +37,15 @@ export const Wrapper = styled.div`
 `
 export const WrapperFighters = styled.div`
     padding-top: 300px;
+    @media screen and (max-width: 1199px){
+        padding-top: 200px;
+        }
+        @media screen and (max-width: 900px){
+        padding-top: 100px;
+        }
+        @media screen and (max-width: 416px){
+        padding-top: 50px;
+        }
 `
 export const FighterBlockYang = styled.div`
     display: flex;
@@ -171,3 +192,95 @@ export const FighterBlockDiscription = styled.div`
         justify-content: center;
     }
 `
+export const KnowMore = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 140px;
+    margin-bottom: 50px;
+    @media screen and (max-width: 1192px){
+        margin-top: 100px;
+        margin-left: 35px;
+    }
+    @media screen and (max-width: 485px){
+        margin-top: 50px;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+`
+export const KnowMoreImg = styled.img`
+    width: 70px;
+    margin-right: 15px;
+    @media screen and (max-width: 1192px){
+        width: 50px;
+        margin-right: 10px;
+    }
+    @media screen and (max-width: 849px){
+        width: 40px;
+    }
+    @media screen and (max-width: 485px){
+    }
+`
+export const BtnWrapper = styled.a`
+    @media screen and (max-width: 849px){
+        padding-right: 30px;
+    }
+`
+export const ImgWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    @media screen and (max-width: 1192px){
+        margin-right: 25px;
+    }
+    @media screen and (max-width: 600px){
+        margin-right: 15px;
+    }
+    @media screen and (max-width: 485px){
+        margin-bottom: 20px;
+    }
+
+`
+const theme = {
+    pink: {
+        default: '#A2275C',
+        hover: '#8227A2',
+        focus: '#8227A2',
+        padding: '17px 26px;',
+        boxShadowDefault: '4px 0px 0px 0px #802049, -4px 0px 0px 0px #E43A84, 0px  4px 0px 0px #802049, 0px -4px 0px 0px #E43A84;',
+        boxShadowHover: '4px 0px 0px 0px #5B2080, -4px 0px 0px 0px #C23AE4, 0px  4px 0px 0px #5B2080, 0px -4px 0px 0px #C23AE4;',
+        boxShadowFocus: '4px 0px 0px 0px #C23AE4, -4px 0px 0px 0px #5B2080, 0px  4px 0px 0px #C23AE4, 0px -4px 0px 0px #5B2080;',
+        margin: '0px'
+    },
+}
+export const Button = styled.button`
+    background-color: ${props => theme[props.theme].default};
+    color: #fff;
+    padding: ${props => theme[props.theme].padding};
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    transition: ease all 0.3s;
+    font-size: 18px;
+    box-shadow: ${props => theme[props.theme].boxShadowDefault};
+    margin: ${props => theme[props.theme].margin};
+    &:hover{
+        background-color: ${props => theme[props.theme].hover};
+        box-shadow: ${props => theme[props.theme].boxShadowHover};
+    }
+    &:focus{
+        background-color: ${props => theme[props.theme].focus};
+        box-shadow: ${props => theme[props.theme].boxShadowFocus};
+    }
+    @media screen and (max-width: 974px){
+        font-size: 10px;
+    }
+    @media screen and (max-width: 605px){
+        font-size: 8px;
+        line-height: 12px;
+    }
+`   
+Button.defaultProps = {
+    theme : 'pink' | 'purple' | 'mint' | 'brown' | 'icon',
+}

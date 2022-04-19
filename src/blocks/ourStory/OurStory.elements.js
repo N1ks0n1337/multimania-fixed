@@ -1,13 +1,22 @@
 import styled from "styled-components"
-import backgroundOut from '../fighters/backgroundOut.png'
-
+import backgroundOut from './backgroundOut.png'
 
 export const Container = styled.div`
     width: 100%;
     background-color: #041d2d;
     overflow: hidden;
 `
-
+export const BackgroundImg = styled.div`
+        background-image: url('${backgroundOut}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 150px;
+        background-clip: text;
+        @media screen and (max-width: 1199px){
+            background-image: none;
+        }
+        
+`
 
 export const Wrapper = styled.div`
     width: 100%;

@@ -1,8 +1,10 @@
-import { Container, Wrapper, WrapperFighters, FighterBlockYang, FighterBlockLing, FighterBlockImgYang,FighterBlockImgLing, FighterBlockDiscription, FighterImg, FighterSupplyText,FighterDiscriptionText, FighterValue, FighterValueLi, CoinImg, BackgroundImg} from './Fighters.elements';
+import { Container, Wrapper, WrapperFighters, FighterBlockYang, FighterBlockLing, FighterBlockImgYang,FighterBlockImgLing, FighterBlockDiscription, FighterImg, FighterSupplyText,FighterDiscriptionText, FighterValue, FighterValueLi, CoinImg, BackgroundImg, KnowMore, ImgWrapper,KnowMoreImg, BtnWrapper, Button, BackgroundImgCity} from './Fighters.elements';
 import yang from '../../image/Yang.png';
-import ling from '../../image/Ling.png'
-import coin from '../../image/Coin.png'
+import ling from '../../image/Ling.png';
+import coin from '../../image/Coin.png';
 import Title from '../../components/title/Title';
+import question from '../../image/Que.png';
+import SubTitle from '../../components/subTitle/SubTitle'
 
 const Fighters = () => {
     return(
@@ -50,8 +52,18 @@ const Fighters = () => {
                       </FighterBlockImgLing>
                     </FighterBlockLing>
                 </WrapperFighters>
+                <KnowMore>
+                  <ImgWrapper>
+                    <KnowMoreImg src={question}></KnowMoreImg>
+                    <SubTitle>Want to know more?</SubTitle>
+                  </ImgWrapper>
+                  <BtnWrapper>
+                    <Button theme='pink'>Read Whitepaper</Button>
+                  </BtnWrapper>
+                </KnowMore>
               </Wrapper>
             </BackgroundImg>
+            <BackgroundImgCity/>
         </Container>
     )
 }

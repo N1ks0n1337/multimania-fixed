@@ -9,7 +9,7 @@ import Roadmap from './blocks/roadmap/Roadmap';
 import styled from 'styled-components';
 import Fighters from './blocks/fighters/Fighters';
 import backgroundOut from './blocks/fighters/backgroundOut.png'
-
+import Works from './blocks/works/Works'
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <OurStory/>
       <Fighters/>
       <Collectibles/>
+      <Works/>
       <Roadmap/>
       <LearnMore/>
       <Footer/>
