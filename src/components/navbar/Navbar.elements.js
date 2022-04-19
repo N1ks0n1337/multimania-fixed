@@ -3,7 +3,9 @@ export const Container = styled.div`
     width: 100%;
     height: 82px;
     padding-top: 20px;
+
 `
+
 
 export const Wrapper = styled.div`
     width: 100%;
@@ -19,7 +21,7 @@ export const LogoContainer = styled.div`
         margin-left: 10px;
     }
     @media screen and (max-width: 765px){
-        display: none;
+        margin-left: -3px;
     }
 `
 
@@ -29,8 +31,8 @@ export const Menu = styled.ul`
     justify-content: space-between;
     @media screen and (max-width: 765px){
         background-color: #000B2C;
-        position: absolute;
-        top: 70px;
+        position: fixed;
+        top: 0;
         left: ${({open}) => (open ? "0" : "-100%")};
         width: 100%;
         height: 100%;
@@ -100,6 +102,9 @@ export const MobileIcon = styled.div`
         justify-content: flex-end;
         cursor: pointer;
         svg{
+            position: fixed;
+            right: 10px;
+            z-index: 100;
             fill: #A2275C;
             margin-right: 0.5rem;
             width: 25px;
@@ -112,4 +117,8 @@ export const mobileLogo = styled.div`
     @media screen and (max-width: 765px){
         display: flex;
     }
+`
+
+export const BtnWrapper = styled.div`
+
 `

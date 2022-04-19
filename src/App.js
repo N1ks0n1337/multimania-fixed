@@ -7,12 +7,16 @@ import LearnMore from './blocks/learnMore/LearnMore';
 import Footer from './blocks/footer/Footer';
 import Roadmap from './blocks/roadmap/Roadmap';
 import styled from 'styled-components';
+import Fighters from './blocks/fighters/Fighters';
+import backgroundOut from './blocks/fighters/backgroundOut.png'
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <OurStory/>
+      <Fighters/>
       <Collectibles/>
       <Roadmap/>
       <LearnMore/>

@@ -1,19 +1,23 @@
 import styled from "styled-components"
+import backgroundOut from '../fighters/backgroundOut.png'
+
 
 export const Container = styled.div`
     width: 100%;
     background-color: #041d2d;
-    @media screen and (max-width: 482px){
-           padding-top: 40px; 
-        }
+    overflow: hidden;
 `
+
 
 export const Wrapper = styled.div`
     width: 100%;
     max-width: 1300px;
     height: 100%;
     margin: auto;
+
 `
+
+
 export const ImageStars = styled.img`
         @media screen and (max-width: 953px){
             width: 100px;
@@ -63,6 +67,4 @@ export const Text = styled.p`
 export const Background = styled.div`
     margin-top: -10%;
 `
-export const Fighter = styled.div`
-    margin-top: -500px;
-`
+

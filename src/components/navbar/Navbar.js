@@ -1,6 +1,6 @@
 import React from 'react'
 import Btn from '../button/Button'
-import { Container, MenuItemContainer ,LogoContainer, Wrapper, Menu, MenuItem, MenuItemLink, Social, MobileIcon } from './Navbar.elements'
+import { Container, MenuItemContainer ,LogoContainer, Wrapper, Menu, MenuItem, MenuItemLink, Social, MobileIcon, BtnWrapper } from './Navbar.elements'
 import Sea from '../../image/icon/sea.png'
 import Discord from '../../image/icon/discord.png'
 import Twitter from '../../image/icon/twitter.png'

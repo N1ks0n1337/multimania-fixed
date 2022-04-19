@@ -1,12 +1,13 @@
 import React from 'react'
 import Title from '../../components/title/Title';
-import { Container, Background ,ImageStars, LeftStars, Text ,RightStars, TextContainer, TitleContainer, Wrapper, Fighter} from './OurStory.elements';
+import { Container ,ImageStars, LeftStars, Text ,RightStars, TextContainer, TitleContainer, Wrapper} from './OurStory.elements';
 import leftStars from '../../image/LeftStars.png';
 import rightStars from '../../image/RightStars.png';
-import backgroundOut from './backgroundOut.png'
+
 
 const OurStory = () => {
   return (
+    
     <Container>
         <Wrapper>
           <TitleContainer>
@@ -26,9 +27,7 @@ const OurStory = () => {
               Can you beat your opponent? Even knowing it’s you from another reality?
               </Text>
           </TextContainer>
-
         </Wrapper>
-        <Background style={{ backgroundImage: `url(${backgroundOut})`, backgroundRepeat  : 'no-repeat', backgroundSize: 'contain', width: '100vw', height: '100vw'}} className='_ibg'></Background>
     </Container>
   )
 }
