@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import backgroundOut from './backgroundOut.png'
 
+
 export const Container = styled.div`
     width: 100%;
     background-color: #041d2d;
@@ -28,6 +29,8 @@ export const Wrapper = styled.div`
 
 
 export const ImageStars = styled.img`
+    width: 159px;
+    height: 130px;
         @media screen and (max-width: 953px){
             width: 100px;
             height: 100px;  
@@ -72,8 +75,10 @@ export const Text = styled.p`
         width: 90%;
         font-size: 18px;
     }
+
 `
 export const Background = styled.div`
     margin-top: -10%;
+
 `
 

@@ -48,8 +48,11 @@ display: flex;
 margin-bottom: 50px;
 `
 export const LearnItemLeft = styled.div`
+
 `
 export const StarsRight = styled.img`
+width: 159px;
+height: 130px;
 position: absolute;
 top: -50%;
 left: 75%;
@@ -65,6 +68,8 @@ export const BackgroundImgCity = styled.div`
     padding-bottom: 550px;
 `
 export const StarsLeft = styled.img`
+width: 159px;
+height: 130px;
 position: absolute;
 top: 0%;
 left: 11%;
