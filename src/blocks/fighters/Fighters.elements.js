@@ -5,7 +5,9 @@ import cityBg from './cityBg.png'
 export const Container = styled.div`
     width: 100%;
     background: rgb(27,20,50);
-background: linear-gradient(0deg, rgba(27,20,50,1) 76%, rgba(4,29,45,1) 100%);
+    background: linear-gradient(0deg, 
+        rgba(27,20,50,1) 76%,
+        rgba(4,29,45,1) 100%);
     overflow: hidden;
 `
 export const BackgroundImg = styled.div`

@@ -1,6 +1,14 @@
 import React from 'react'
 import Title from '../../components/title/Title';
-import { Container ,ImageStars, LeftStars, Text ,RightStars, TextContainer, TitleContainer, Wrapper, BackgroundImg} from './OurStory.elements';
+import { Container, 
+  ImageStars, 
+  LeftStars, 
+  Text, 
+  RightStars, 
+  TextContainer, 
+  TitleContainer, 
+  Wrapper, 
+  BackgroundImg} from './OurStory.elements';
 import leftStars from '../../image/LeftStars.gif';
 import rightStars from '../../image/RightStars.gif';
 

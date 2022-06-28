@@ -1,7 +1,6 @@
 import styled from "styled-components"
 import backgroundOut from './backgroundOut.png'
 
-
 export const Container = styled.div`
     width: 100%;
     background-color: #041d2d;
@@ -18,7 +17,6 @@ export const BackgroundImg = styled.div`
         }
         
 `
-
 export const Wrapper = styled.div`
     width: 100%;
     max-width: 1300px;
@@ -26,8 +24,6 @@ export const Wrapper = styled.div`
     margin: auto;
 
 `
-
-
 export const ImageStars = styled.img`
     width: 159px;
     height: 130px;
@@ -44,7 +40,6 @@ export const ImageStars = styled.img`
             height: 60px;  
         }
 `
-
 export const TitleContainer = styled.div`
 display: flex;
 justify-content: center;

@@ -1,4 +1,7 @@
-import { Container, Wrapper, WrapperFighters, FighterBlockYang, FighterBlockLing, FighterBlockImgYang,FighterBlockImgLing, FighterBlockDiscription, FighterImg, FighterSupplyText,FighterDiscriptionText, FighterValue, FighterValueLi, CoinImg, BackgroundImg, KnowMore, ImgWrapper,KnowMoreImg, BtnWrapper, Button, BackgroundImgCity} from './Fighters.elements';
+import { Container, 
+  Wrapper, 
+  WrapperFighters, 
+  FighterBlockYang, FighterBlockLing, FighterBlockImgYang,FighterBlockImgLing, FighterBlockDiscription, FighterImg, FighterSupplyText,FighterDiscriptionText, FighterValue, FighterValueLi, CoinImg, BackgroundImg, KnowMore, ImgWrapper,KnowMoreImg, BtnWrapper, Button, BackgroundImgCity} from './Fighters.elements';
 import yang from '../../image/Yang.png';
 import ling from '../../image/Ling.png';
 import coin from '../../image/Coin.png';

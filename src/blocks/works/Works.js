@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {BackgroundImg, BtnBlock ,SubTitleThree , TextThree ,IconThree, BlockIconThree, BlockWrapperThree ,BlockWrapperTwo , BlockIconImgTwo , BlockIconTwo ,IconTwo ,IconArrowBlockTwo ,BlockWrapperDescr ,Text ,SubTitle ,BlockItem ,BlockSliderImgWoman , BlockSliderImgMan ,IconArrowBlock ,Icon, BlockSlider ,BlockText ,BlockSliderImg ,BlockIcon ,BlockIconImg , Blocks, BlockWrapper, Container, Wrapper } from './Works.elements'
+import {BackgroundImg, BtnBlock ,SubTitleThree , TextThree, BlockWrapperThree ,BlockWrapperTwo , BlockIconImgTwo , BlockIconTwo ,IconTwo ,IconArrowBlockTwo ,BlockWrapperDescr ,Text ,SubTitle ,BlockItem ,BlockSliderImgWoman , BlockSliderImgMan ,IconArrowBlock ,Icon, BlockSlider ,BlockText ,BlockSliderImg ,BlockIcon ,BlockIconImg , Blocks, BlockWrapper, Container, Wrapper } from './Works.elements'
 import Title from '../../components/title/Title'
 import FirstHero from '../../image/works/Firsthero.png'
 import SecondHero from '../../image/works/Sechero.png'
@@ -8,7 +8,6 @@ import BigHero from '../../image/works/BigHero.png'
 import Woman from '../../image/works/Woman.png'
 import SwordIcon from '../../image/works/SwordIcon.png'
 import StickIcon from '../../image/works/StickIcon.png'
-import War from '../../image/works/NoWarIcon.gif'
 import Btn from '../../components/button/Button'
 
 const Works = () => {
@@ -67,19 +66,15 @@ const Works = () => {
               <TextThree>
               Emblems and emotions can be used as taunts on opponent and good collectibles.<br/>
               <br/>
-              This “NO WAR” emblem is our present to community. Based on the ERC-1155 standard, anyone can claim this NFT emblem absolutely for free. Our team is against war and we’re happy to announce that 10% of all sales fees will go to charity in Ukrainian schools and orphanages.             
+              This  emblem is our present to community. Based on the ERC-1155 standard, anyone can claim this NFT emblem absolutely for free. Our team is against war and we’re happy to announce that 10% of all sales fees will go to charity in Ukrainian schools and orphanages.             
               </TextThree>
               </BlockWrapperDescr>
-              <BlockIconThree>
-                <IconThree src={War}/>
-            </BlockIconThree>
             </BlockWrapperThree>
           </BlockItem>
         </Blocks>
         <BtnBlock data-aos="zoom-in">
-        <Btn theme='pink'>Claim free NFT "NO WAR" emblem</Btn>
+        <Btn theme='pink'>Claim free NFT emblem</Btn>
         </BtnBlock>
-
       </Wrapper>
       </BackgroundImg>
     </Container>
